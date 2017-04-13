@@ -189,10 +189,10 @@ def writeOutputIntoXMP2(inDir, outDir, file_name, Exposure_Compensation, paramet
 
 				label_veto		= 0
 				if "xmp:Label=\"Red\"" in line:
-					red_label_flag		= 1
+					#red_label_flag		= 1
 					label_veto		= 1
 				if "xmp:Label=\"Green\"" in line:
-					green_label_flag	= 1
+					#green_label_flag	= 1
 					label_veto		= 1
 				if "crs:RawFileName=" in line:
 					last_crs_line	= 1
